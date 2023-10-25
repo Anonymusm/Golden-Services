@@ -1,0 +1,34 @@
+:root {
+    --accent-color: #FED136;
+    --text-color: #777;
+    --main-color: #222;
+}
+
+.logo {
+    color: var(--accent-color);
+}
+
+.navigation-link {
+    color: var(--accent-color);
+}
+
+.services-title,
+.services-item-title {
+    color: var(--main-color);
+}
+
+.services-info {
+    color: var(--text-color);
+}
+
+.contact {
+    background-color: var(--main-color);
+}
+
+.contact-title {
+    color: #fff;
+}
+
+.contact-btn {
+    background-color: var(--accent-color);
+}
