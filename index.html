@@ -5,102 +5,115 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>Golden Services</title>
-    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Slab&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <header class="header">
-      <p class="logo">Golden</p>
-      <nav class="navigation">
-        <ul class="navigation-list">
-          <li class="navigation-item">
-            <a href="#" class="navigation-link">Home</a>
-          </li>
-          <li class="navigation-item">
-            <a href="#" class="navigation-link">Services</a>
-          </li>
-          <li class="navigation-item">
-            <a href="#" class="navigation-link">Portfolio</a>
-          </li>
-          <li class="navigation-item">
-            <a href="#" class="navigation-link">About</a>
-          </li>
-          <li class="navigation-item">
-            <a href="#" class="navigation-link">Contact</a>
-          </li>
-        </ul>
-      </nav>
+      <div class="container">
+        <p class="logo">Golden</p>
+        <nav class="navigation">
+          <ul class="navigation-list list">
+            <li class="navigation-item">
+              <a href="#" class="navigation-link link">Home</a>
+            </li>
+            <li class="navigation-item">
+              <a href="#" class="navigation-link link">Services</a>
+            </li>
+            <li class="navigation-item">
+              <a href="#" class="navigation-link link">Portfolio</a>
+            </li>
+            <li class="navigation-item">
+              <a href="#" class="navigation-link link">About</a>
+            </li>
+            <li class="navigation-item">
+              <a href="#" class="navigation-link link">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
     <main>
       <section class="services">
-        <h2 class="services-title">Services</h2>
-        <ul class="services-list">
-          <li class="services-item">
-            <h3 class="services-item-title">E-Commerce</h3>
-            <p class="services-info">
-              Proin iaculis purus consequat sem cure digni ssim. Donec
-              porttitora entum suscipit aenean rhoncus posuere odio in
-              tincidunt.
-            </p>
-          </li>
-          <li class="services-item">
-            <h3 class="services-item-title">Responsive Web</h3>
-            <p class="services-info">
-              Proin iaculis purus consequat sem cure digni ssim. Donec
-              porttitora entum suscipit aenean rhoncus posuere odio in
-              tincidunt.
-            </p>
-          </li>
-          <li class="services-item">
-            <h3 class="services-item-title">Web Security</h3>
-            <p class="services-info">
-              Proin iaculis purus consequat sem cure digni ssim. Donec
-              porttitora entum suscipit aenean rhoncus posuere odio in
-              tincidunt.
-            </p>
-          </li>
-        </ul>
+        <div class="container">
+          <h2 class="services-title">Services</h2>
+          <ul class="services-list list">
+            <li class="services-item">
+              <h3 class="services-item-title">E-Commerce</h3>
+              <p class="services-info">
+                Proin iaculis purus consequat sem cure digni ssim. Donec
+                porttitora entum suscipit aenean rhoncus posuere odio in
+                tincidunt.
+              </p>
+            </li>
+            <li class="services-item">
+              <h3 class="services-item-title">Responsive Web</h3>
+              <p class="services-info">
+                Proin iaculis purus consequat sem cure digni ssim. Donec
+                porttitora entum suscipit aenean rhoncus posuere odio in
+                tincidunt.
+              </p>
+            </li>
+            <li class="services-item">
+              <h3 class="services-item-title">Web Security</h3>
+              <p class="services-info">
+                Proin iaculis purus consequat sem cure digni ssim. Donec
+                porttitora entum suscipit aenean rhoncus posuere odio in
+                tincidunt.
+              </p>
+            </li>
+          </ul>
+        </div>
       </section>
       <section class="contact">
-        <h2 class="contact-title">Contact us</h2>
-        <form class="contact-form">
-          <input
-            type="text"
-            name="name"
-            placeholder="Your Name *"
-            class="contact-input"
-          />
-          <br />
-          <input
-            type="email"
-            name="email"
-            placeholder="Your Email *"
-            class="contact-input"
-          />
-          <br />
-          <input
-            type="text"
-            name="subject"
-            placeholder="Subject *"
-            class="contact-input"
-          />
-          <br />
-          <textarea
-            name="comment"
-            id="comment"
-            cols="30"
-            rows="10"
-            placeholder="Your message *"
-            class="contact-comment"
-          ></textarea>
-          <br />
-          <button type="submit" class="contact-btn">Send Massage</button>
-        </form>
+        <div class="container">
+          <h2 class="contact-title">Contact us</h2>
+          <form class="contact-form">
+            <input
+              type="text"
+              name="name"
+              placeholder="Your Name *"
+              class="contact-input"
+            />
+            <br />
+            <input
+              type="email"
+              name="email"
+              placeholder="Your Email *"
+              class="contact-input"
+            />
+            <br />
+            <input
+              type="text"
+              name="subject"
+              placeholder="Subject *"
+              class="contact-input"
+            />
+            <br />
+            <textarea
+              name="comment"
+              id="comment"
+              cols="30"
+              rows="10"
+              placeholder="Your message *"
+              class="contact-comment"
+            ></textarea>
+            <br />
+            <button type="submit" class="contact-btn">Send Massage</button>
+          </form>
+        </div>
       </section>
     </main>
   </body>
